@@ -12,10 +12,17 @@
 #                      (that's not a walk, that's standing still!).
 
 
+#best version:
+
+def isValidWalk(walk):
+    if (walk.count('n') == walk.count('s') and 
+        walk.count('e') == walk.count('w') and
+        len(walk) == 10):
+            return True
+    return False
 
 
-
-
+#My version
 def is_valid_walk(walk):
     #determine if walk is valid
     
