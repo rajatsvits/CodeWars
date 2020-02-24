@@ -9,6 +9,11 @@
 # friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 # Note: keep the original order of the names in the output.
 
+#Best
+def friend(x):
+    return [f for f in x if len(f) == 4]
+
+
 #mine
 def friend(x):
     #Code
