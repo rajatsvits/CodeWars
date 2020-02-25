@@ -2,6 +2,12 @@ Write a function that takes an integer as input, and returns the number of bits 
 
 Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
+
+#Best
+def countBits(n):
+    return bin(n).count("1")
+
+#Mine
 def countBits(x):
     c=0
     n=x
